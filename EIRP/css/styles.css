@@ -67,8 +67,11 @@ img {
 }
 
 .subtitulo{
-  color: #ffaa00;
   font-size: 2rem;
+}
+
+.texto-amarillo{
+  color: #ffaa00;
 }
 
 .texto-blanco{
@@ -77,6 +80,10 @@ img {
 
 .texto-verde{
   color: #a3d9a5;
+}
+
+.texto-azul{
+  color: #003366;
 }
 
 .btn-blanco{
@@ -90,4 +97,26 @@ img {
 
 .texto-header p, h1, h2, div{
   margin: 3rem;
+}
+
+/** valores **/
+.valores{
+  background-color: #003366;
+  padding: 4rem 0;
+}
+
+.valores-contenido{
+  background-color: white;
+  border-radius: 2rem;
+  margin: 2rem;
+  padding: 3rem;
+  flex-basis: 33.3%;
+  margin-top: 0;
+}
+
+.contenido{
+  display: flex;
+}
+.no-margen{
+  margin: 0;
 }
