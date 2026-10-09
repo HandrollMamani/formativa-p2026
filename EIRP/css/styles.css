@@ -1,3 +1,168 @@
+html {
+  box-sizing: border-box;
+  /*REM*/
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar {
+  display: flex; /* coloca todo en fila */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navitems {
+  display: flex;
+}
+
+.navitems li {
+  list-style: none;
+  margin-left: 1.5rem;
+}
+
+.container {
+  width: 140rem;
+  margin: 0 auto;
+}
+
+.logo-navbar {
+  width: 10rem;
+  height: 10rem;
+}
+
+.navitems li a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+.btn {
+  text-decoration: none;
+  color: #003366;
+  padding: 1.5rem 2rem;
+  border-radius: 3rem;
+}
+
+.amarillo{
+  background-color: #ffaa00;
+}
+
+.hero{
+  background-image: url("../img/banner.png");
+  height: 60rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.subtitulo{
+  font-size: 2.5rem;
+}
+
+.texto-amarillo{
+  color: #ffaa00;
+}
+
+.texto-blanco{
+  color: white;
+}
+
+.texto-verde{
+  color: #a3d9a5;
+}
+
+.texto-azul{
+  color: #003366;
+}
+
+.btn-blanco{
+  color: white;
+  border: solid white;
+}
+
+.texto-header{
+  padding: 20rem;
+}
+
+.texto-header p, h1, h2, div{
+  margin: 3rem;
+}
+
+/** valores **/
+.valores{
+  background-color: #003366;
+  padding: 4rem 0;
+}
+
+.valores-contenido{
+  background-color: white;
+  border-radius: 2rem;
+  margin: 2rem;
+  padding: 3rem;
+  flex-basis: 33.3%;
+  margin-top: 0;
+}
+
+.contenido{
+  display: flex;
+}
+.no-margen{
+  margin: 0;
+}
+
+/** sobre nosotros **/
+
+.sobre-nosotros{
+  display: flex;
+}
+
+.sobre-nosotros div{
+  padding: 0 2rem;
+  flex-basis: 50%;
+}
+
+/** footer **/
+
+.contenido-superior{
+  display: flex;
+  color: white;
+}
+
+.contenido-superior div{
+  flex-basis: calc(30% - 2rem);
+}
+
+.footer-background{
+  background-color: #003366;
+}
+
+.footer-enlaces{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-enlaces a{
+  text-decoration: none;
+  color: white;
+}
+
+.contenido-inf{
+  color: white;
+  border-top: solid white 0.1rem;
+}
+
+.contenido-inf p{
+  text-align: center;
+  padding-bottom: 1rem;
 }
