@@ -67,7 +67,7 @@ img {
 }
 
 .subtitulo{
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .texto-amarillo{
@@ -119,4 +119,50 @@ img {
 }
 .no-margen{
   margin: 0;
+}
+
+/** sobre nosotros **/
+
+.sobre-nosotros{
+  display: flex;
+}
+
+.sobre-nosotros div{
+  padding: 0 2rem;
+  flex-basis: 50%;
+}
+
+/** footer **/
+
+.contenido-superior{
+  display: flex;
+  color: white;
+}
+
+.contenido-superior div{
+  flex-basis: calc(30% - 2rem);
+}
+
+.footer-background{
+  background-color: #003366;
+}
+
+.footer-enlaces{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-enlaces a{
+  text-decoration: none;
+  color: white;
+}
+
+.contenido-inf{
+  color: white;
+  border-top: solid white 0.1rem;
+}
+
+.contenido-inf p{
+  text-align: center;
+  padding-bottom: 1rem;
 }
